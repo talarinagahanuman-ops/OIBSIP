@@ -1,0 +1,36 @@
+## Results
+
+The Sales Prediction model was trained using advertising data containing TV, Radio, and Newspaper advertising expenditures.
+
+### 1. Random Forest Model Performance
+
+The Random Forest model produced the following results:
+
+* **Mean Absolute Error (MAE):** 0.6203
+* **Root Mean Squared Error (RMSE):** 0.7687
+
+The relatively low error values indicate that the model is able to predict sales reasonably well from the advertising expenditure data.
+
+### 2. Feature Importance
+
+The feature importance results were:
+
+| Advertising Medium | Importance |
+| ------------------ | ---------: |
+| TV                 |     0.6248 |
+| Radio              |     0.3622 |
+| Newspaper          |     0.0130 |
+
+**TV advertising** was the most important factor in predicting sales, followed by **Radio advertising**. Newspaper advertising had very little influence compared with the other two features.
+
+### 3. Sample Prediction
+
+The trained model generated the following sample prediction:
+
+**Predicted Sales: 15.4196**
+
+### 4. Conclusion
+
+The results show that machine learning can be used to predict sales based on advertising expenditure. Among the three advertising channels, TV had the greatest contribution to the prediction, while Newspaper had the least contribution.
+
+The Random Forest model achieved an MAE of approximately **0.62** and an RMSE of approximately **0.77**, demonstrating useful predictive performance for this dataset.
